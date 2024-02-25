@@ -1,4 +1,10 @@
+# Requirements file
 beautifulsoup4
-streamlit==1.24.1
-requests==2.26.0
-pandas==1.3.3
+html5lib
+lxml
+openpyxl
+pandas
+psycopg2-binary
+requests
+sqlalchemy
+mysql-connector-python
