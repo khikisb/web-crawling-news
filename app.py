@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
 import requests
-from bs4 import BeautifulSoup
+import BeautifulSoup
 
 def get_article_content(article_url):
     response = requests.get(article_url)
